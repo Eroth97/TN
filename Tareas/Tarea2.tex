@@ -57,14 +57,55 @@
 \begin{document}
 \maketitle
 
-%Punto_1
+\begin{enumerate}
+  \item Sea $L$ un cuerpo. 
+  \begin{enumerate}
+    \item Sea $v$ una vaulación sobre $L$ y sea $O_v$ su anillo de valuación. Muestre que para todo $x \in L$ si $x \not\in O_v$ entonces $x^{-1} \in O_v$.
+    \item Muestre que el converso del anterior se tiene. Es decir, muestre que si $O$ es un subanillo de $L$ tal que para todo $x \in L$, si $x \not \in O$ entonces $x^{-1} \in O$, entonces $O$ es el anillo de valuación de alguna valuación $v$ sobre $L$.
+  \end{enumerate}
+
+  \begin{center}
+    \rule[2mm]{4.3cm}{0.5pt}
+    \Ovalbox{\textbf{Solución}}
+    \rule[2mm]{4.3cm}{0.5pt}
+  \end{center}
+
+  % \begin{enumerate}
+  %   \item Sea $G$ un grupo abeliano totalmente ordenado y $v: L^{*} \rightarrow G$ una valuación discreta. Primero notamos que, como $v$ es un homomorfismo entre $L^*$ y $G$, $v(u^{-1}) = -v(u)$ para cualquier $u \in L*$.  
+  % \end{enumerate}
 
 
+  \item Sea $R$ un domino, $P \subseteq R$ un ideal primo y sea $L$ un cuerpo tal que $R \subseteq L$. El proposito de este problema es mostrar que existe una valuación $v$ sobre $L$ tal que si $O_v$ es el anillo de valuación y $M_v$ es su ideal maximal entonces $R \subseteq O_v$ y $R \cup M_v = P$
+  
+  \begin{enumerate}
+    \item Muestre, que reemplazando $(R, P)$ por $(R_P , P_P)$ se puede asumir que $R$ es local con ideal maximal $P$.
+    \item Considere la colección $\Sigma$ de parejas $(O, M)$ tales que $R \subseteq O \subseteq L$ es un anillo, $M \subseteq O$ un ideal propio y $P = R \cup M$. Muestre que $\Sigma$ puede ser dotado de un orden parcial, vía contenencia, y que $\Sigma$ tiene elementos maximales.
+    \item Sea $(O, M)$ un elemento maximal de $\Sigma$. Muestre que $M$ es maximal. Más aún muestre que $O$ es local.
+    \item Sea $(O, M)$ como en el punto anterior. Muestre que para todo $x \in L$ si $x \not \in O$, entonces $x^{-1} \in O$. Concluya del punto anterior el resultado.
+  \end{enumerate}
 
-%Punto_2
+  \begin{center}
+    \rule[2mm]{4.3cm}{0.5pt}
+    \Ovalbox{\textbf{Solución}}
+    \rule[2mm]{4.3cm}{0.5pt}
+  \end{center}
+  
+  \item Sea $K$ un cuerpo de números y $O_K$ su anillo de enteros.
+  \begin{enumerate}
+    \item Si $p \in Z$ un primo, muestre que existe un ideal maximal $M \subseteq O_K$ tal que $M \cup Z = pZ$.
+    \item Suponga que la extensión $K/Q$ es de Galois con grupo de Galois $G$. Muestre que $O_K$ es invariante bajo $G$. Sea $p \in Z$ un primo y $\Sigma_p$ el conjunto de ideales maximales $M$ en $O_K$ tales que $p \in M$. Muestre que $G$ actua sobre el conjunto $\Sigma_p$.
+    \item Sean $G, p$ y $\Sigma_p$ como en el inciso anterior y sea $M \in \Sigma_p$. Se definen el \textit{subgrupo de descomposición} de $M$ como
+      \begin{center}
+        $D_M := Stab_G (M)$
+      \end{center}
+    y el \textit{subgrupo de inercia} de M como
+      \begin{center}
+        $I_M := {\sigma \in G : \sigma(x) - x \in M, \forall x \in O_K}$
+      \end{center}
+    Muestre que $I_M \trianglelefteq D_M \leq G$ y que $D_M/I_M$ es un grupo cíclico.
+    \item Suponga que $K = \Q(i)$. Para cada primo $p \in \Z$ y para cada $M \in \Sigma_p$ encuentre los grupos $I_M$ y $D_M$. ¿Para cuáles primos $p$ se tiene que $I_M$ es no trivial, y para cuáles $D_M$ es trivial?
+  \end{enumerate}
+\end{enumerate}
 
-
-
-%Punto_3
 
 \end{document}

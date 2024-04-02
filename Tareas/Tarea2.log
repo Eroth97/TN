@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.1)  1 APR 2024 15:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.1)  2 APR 2024 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -816,9 +816,14 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 63.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 69.
+ [1
 
-{C:/Users/super/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/super/AppData/Roaming/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}] (Tarea2.aux
+{C:/Users/super/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/super/AppData/Roaming/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/super/AppData/Roaming/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{C:/Users/super/AppData/Roaming/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}] [2] (Tarea2.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -834,17 +839,17 @@ Package logreq Info: Writing requests to 'Tarea2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22293 strings out of 474423
- 383010 string characters out of 5751534
- 1928496 words of memory out of 5000000
- 44375 multiletter control sequences out of 15000+600000
- 577770 words of font info for 57 fonts, out of 8000000 for 9000
+ 22348 strings out of 474423
+ 383670 string characters out of 5751534
+ 1945496 words of memory out of 5000000
+ 44400 multiletter control sequences out of 15000+600000
+ 593801 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,6n,81p,727b,1839s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/super/AppData/Roaming/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb>
-Output written on Tarea2.pdf (1 page, 80533 bytes).
+<C:/Users/super/AppData/Roaming/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/super/AppData/Roaming/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/super/AppData/Roaming/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Tarea2.pdf (2 pages, 301484 bytes).
 PDF statistics:
- 17 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
